@@ -5,7 +5,11 @@
 #include <string>
 class Maze {
     private:
+<<<<<<< Updated upstream
     std::vector<std::string> data;
+=======
+    std::vector<std::string> _maze_data;
+>>>>>>> Stashed changes
     std::pair<int, int> start_ {0,0};
     public:
     Maze() = default;
