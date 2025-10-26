@@ -3,9 +3,12 @@
 
 class App {
     private:
-
+    
     public:
     App();
     ~App();
+    void init();
+    void run();
+    void shutdown();
 };
 #endif
